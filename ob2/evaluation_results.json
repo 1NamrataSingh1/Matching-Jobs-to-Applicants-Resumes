@@ -1,0 +1,6029 @@
+{
+  "baseline_cosine": {
+    "method": "Simple Cosine Similarity",
+    "accuracy_top1": 0.19047619047619047,
+    "accuracy_top5": 0.3904761904761905,
+    "accuracy_top1_family": 0.4,
+    "accuracy_top5_family": 0.7047619047619048,
+    "avg_time_ms": 4244.542528334117,
+    "total_time_s": 445.6769654750824,
+    "errors": 0,
+    "n_examples": 105,
+    "cost_usd": 0,
+    "results": [
+      {
+        "id": 0,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "15-2051.00",
+          "17-2141.00",
+          "17-2112.00",
+          "15-1251.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11858.175277709961
+      },
+      {
+        "id": 1,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "11-2021.00",
+          "17-2071.00",
+          "17-2141.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9643.811702728271
+      },
+      {
+        "id": 2,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "23-1011.00",
+          "13-2099.04",
+          "19-1032.00",
+          "19-3022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3536.010980606079
+      },
+      {
+        "id": 3,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-2051.00",
+        "pred_title": "Data Scientists",
+        "top5": [
+          "15-2051.00",
+          "41-9012.00",
+          "11-1031.00",
+          "17-2112.00",
+          "19-1029.04"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 7606.436252593994
+      },
+      {
+        "id": 4,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2071.00",
+          "11-2021.00",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 4769.005060195923
+      },
+      {
+        "id": 5,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "11-9081.00",
+        "pred_title": "Lodging Managers",
+        "top5": [
+          "11-9081.00",
+          "15-1252.00",
+          "11-3111.00",
+          "11-3121.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 5935.670852661133
+      },
+      {
+        "id": 6,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "11-3013.00",
+        "pred_title": "Facilities Managers",
+        "top5": [
+          "11-3013.00",
+          "15-1242.00",
+          "11-3031.00",
+          "11-2021.00",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 4673.833847045898
+      },
+      {
+        "id": 7,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "13-1071.00",
+          "17-2112.00",
+          "11-3121.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2342.568874359131
+      },
+      {
+        "id": 8,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2061.00",
+          "15-1251.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 1535.4149341583252
+      },
+      {
+        "id": 9,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "21-1014.00",
+        "pred_title": "Mental Health Counselors",
+        "top5": [
+          "21-1014.00",
+          "25-2058.00",
+          "25-2056.00",
+          "25-9043.00",
+          "19-3039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 1745.2287673950195
+      },
+      {
+        "id": 10,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "19-1029.01",
+        "pred_title": "Bioinformatics Scientists",
+        "top5": [
+          "19-1029.01",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3438.4748935699463
+      },
+      {
+        "id": 11,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1023.00",
+        "pred_title": "Judges, Magistrate Judges, and Magistrates",
+        "top5": [
+          "23-1023.00",
+          "11-1011.00",
+          "23-1011.00",
+          "43-6011.00",
+          "47-2142.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2028.8100242614746
+      },
+      {
+        "id": 12,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1011.00",
+        "pred_title": "Lawyers",
+        "top5": [
+          "23-1011.00",
+          "25-1112.00",
+          "23-1023.00",
+          "13-2072.00",
+          "23-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 5397.4809646606445
+      },
+      {
+        "id": 13,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1011.00",
+        "pred_title": "Lawyers",
+        "top5": [
+          "23-1011.00",
+          "17-3013.00",
+          "23-1023.00",
+          "25-1081.00",
+          "23-1012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2428.126335144043
+      },
+      {
+        "id": 14,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "11-3013.00",
+        "pred_title": "Facilities Managers",
+        "top5": [
+          "11-3013.00",
+          "23-1011.00",
+          "11-2021.00",
+          "13-1111.00",
+          "23-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2280.1640033721924
+      },
+      {
+        "id": 15,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "41-2031.00",
+          "11-2022.00",
+          "41-9012.00",
+          "41-9031.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 7742.1441078186035
+      },
+      {
+        "id": 16,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "11-3031.01",
+          "17-2199.05",
+          "17-2112.00",
+          "17-3027.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2137.387752532959
+      },
+      {
+        "id": 17,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2141.02",
+          "17-2112.03",
+          "49-9041.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2098.2563495635986
+      },
+      {
+        "id": 18,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2112.03",
+          "17-3027.00",
+          "17-2051.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3782.095193862915
+      },
+      {
+        "id": 19,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "49-9041.00",
+          "17-3027.00",
+          "17-2131.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1481.806755065918
+      },
+      {
+        "id": 20,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2022.00",
+        "pred_title": "Sales Managers",
+        "top5": [
+          "11-2022.00",
+          "41-9031.00",
+          "41-2031.00",
+          "11-2021.00",
+          "43-4051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 4537.94002532959
+      },
+      {
+        "id": 21,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "41-9031.00",
+        "pred_title": "Sales Engineers",
+        "top5": [
+          "41-9031.00",
+          "11-2022.00",
+          "13-1199.06",
+          "41-2011.00",
+          "11-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4061.397075653076
+      },
+      {
+        "id": 22,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2022.00",
+        "pred_title": "Sales Managers",
+        "top5": [
+          "11-2022.00",
+          "11-2021.00",
+          "41-9031.00",
+          "11-3061.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3510.94913482666
+      },
+      {
+        "id": 23,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2021.00",
+        "pred_title": "Marketing Managers",
+        "top5": [
+          "11-2021.00",
+          "11-3013.00",
+          "27-1012.00",
+          "11-2022.00",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 1937.2837543487549
+      },
+      {
+        "id": 24,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2022.00",
+        "pred_title": "Sales Managers",
+        "top5": [
+          "11-2022.00",
+          "11-2021.00",
+          "41-9031.00",
+          "11-2011.00",
+          "11-3061.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 1839.3630981445312
+      },
+      {
+        "id": 25,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "29-1218.00",
+        "pred_title": "Obstetricians and Gynecologists",
+        "top5": [
+          "29-1218.00",
+          "11-9179.01",
+          "29-1031.00",
+          "29-1229.02",
+          "11-2022.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2593.7659740448
+      },
+      {
+        "id": 26,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "43-4051.00",
+        "pred_title": "Customer Service Representatives",
+        "top5": [
+          "43-4051.00",
+          "11-2022.00",
+          "41-9031.00",
+          "41-2031.00",
+          "37-2012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10706.86411857605
+      },
+      {
+        "id": 27,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.02",
+        "pred_title": "Spa Managers",
+        "top5": [
+          "11-9179.02",
+          "39-9031.00",
+          "11-9179.01",
+          "29-9091.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1867.6159381866455
+      },
+      {
+        "id": 28,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "29-1031.00",
+        "pred_title": "Dietitians and Nutritionists",
+        "top5": [
+          "29-1031.00",
+          "39-9031.00",
+          "19-3093.00",
+          "29-2051.00",
+          "29-9091.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2247.9491233825684
+      },
+      {
+        "id": 29,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "19-1022.00",
+        "pred_title": "Microbiologists",
+        "top5": [
+          "19-1022.00",
+          "39-9031.00",
+          "29-1021.00",
+          "29-1031.00",
+          "31-9091.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 1298.4130382537842
+      },
+      {
+        "id": 30,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2199.00",
+          "17-3028.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4989.245891571045
+      },
+      {
+        "id": 31,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-1022.00",
+        "pred_title": "Surveyors",
+        "top5": [
+          "17-1022.00",
+          "47-2031.00",
+          "17-2112.00",
+          "17-2141.00",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3790.2729511260986
+      },
+      {
+        "id": 32,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-1022.00",
+        "pred_title": "Surveyors",
+        "top5": [
+          "17-1022.00",
+          "47-2031.00",
+          "17-2112.00",
+          "17-2141.00",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4130.321979522705
+      },
+      {
+        "id": 33,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-2051.00",
+        "pred_title": "Civil Engineers",
+        "top5": [
+          "17-2051.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2071.00",
+          "43-3061.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2661.4720821380615
+      },
+      {
+        "id": 34,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-2051.00",
+        "pred_title": "Civil Engineers",
+        "top5": [
+          "17-2051.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2071.00",
+          "43-3061.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2549.5059490203857
+      },
+      {
+        "id": 35,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1251.00",
+          "15-1254.00",
+          "11-3013.00",
+          "11-2022.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 6001.000881195068
+      },
+      {
+        "id": 36,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "43-4051.00",
+        "pred_title": "Customer Service Representatives",
+        "top5": [
+          "43-4051.00",
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "13-1199.06"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3105.3030490875244
+      },
+      {
+        "id": 37,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1243.00",
+          "43-4051.00",
+          "15-1255.01",
+          "15-1242.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3842.4887657165527
+      },
+      {
+        "id": 38,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1251.00",
+        "pred_title": "Computer Programmers",
+        "top5": [
+          "15-1251.00",
+          "15-1252.00",
+          "17-2141.00",
+          "17-2112.00",
+          "15-1232.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4679.112911224365
+      },
+      {
+        "id": 39,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1251.00",
+          "11-3013.00",
+          "17-2021.00",
+          "11-2021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3055.385112762451
+      },
+      {
+        "id": 40,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "19-3093.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 8603.982210159302
+      },
+      {
+        "id": 41,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "41-2031.00",
+        "pred_title": "Retail Salespersons",
+        "top5": [
+          "41-2031.00",
+          "11-3071.04",
+          "43-4051.00",
+          "51-2092.00",
+          "11-2022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 5082.319021224976
+      },
+      {
+        "id": 42,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "11-3013.00",
+        "pred_title": "Facilities Managers",
+        "top5": [
+          "11-3013.00",
+          "17-1012.00",
+          "11-2021.00",
+          "13-1111.00",
+          "43-4051.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 4395.3211307525635
+      },
+      {
+        "id": 43,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "19-2099.00",
+          "11-3013.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2190.6118392944336
+      },
+      {
+        "id": 44,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "33-3051.00",
+        "pred_title": "Police and Sheriff's Patrol Officers",
+        "top5": [
+          "33-3051.00",
+          "11-3013.00",
+          "39-7012.00",
+          "11-2021.00",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2427.7381896972656
+      },
+      {
+        "id": 45,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-2051.01",
+        "pred_title": "Business Intelligence Analysts",
+        "top5": [
+          "15-2051.01",
+          "43-5011.01",
+          "43-5011.00",
+          "15-1252.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 6050.463914871216
+      },
+      {
+        "id": 46,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "19-3093.00",
+        "pred_title": "Historians",
+        "top5": [
+          "19-3093.00",
+          "17-2141.00",
+          "15-1243.01",
+          "17-2112.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 7315.696716308594
+      },
+      {
+        "id": 47,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "27-3041.00",
+          "15-1252.00",
+          "51-8092.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3130.034923553467
+      },
+      {
+        "id": 48,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "13-1082.00",
+          "15-1211.00",
+          "15-2051.01",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 5120.382070541382
+      },
+      {
+        "id": 49,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1255.01",
+          "27-2012.00",
+          "31-1132.00",
+          "15-1254.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1662.7001762390137
+      },
+      {
+        "id": 50,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1251.00",
+          "15-2051.01",
+          "13-1111.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 6734.968900680542
+      },
+      {
+        "id": 51,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "41-2031.00",
+        "pred_title": "Retail Salespersons",
+        "top5": [
+          "41-2031.00",
+          "11-2022.00",
+          "41-9031.00",
+          "43-4051.00",
+          "17-2141.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3352.1502017974854
+      },
+      {
+        "id": 52,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "47-2111.00",
+          "17-2112.00",
+          "17-3028.00",
+          "17-2141.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3855.8168411254883
+      },
+      {
+        "id": 53,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "17-2199.06",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 4339.923858642578
+      },
+      {
+        "id": 54,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2712.4080657958984
+      },
+      {
+        "id": 55,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "13-1082.00",
+          "51-8031.00",
+          "17-2112.00",
+          "47-2011.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4843.9788818359375
+      },
+      {
+        "id": 56,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "47-2111.00",
+          "17-3023.00",
+          "17-2141.00",
+          "17-2072.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3370.603084564209
+      },
+      {
+        "id": 57,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "17-3023.00",
+          "49-2094.00",
+          "17-2141.00",
+          "49-2093.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3726.9859313964844
+      },
+      {
+        "id": 58,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "47-2231.00",
+          "47-1011.03",
+          "17-2141.00",
+          "17-2112.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1765.6018733978271
+      },
+      {
+        "id": 59,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2112.00",
+        "pred_title": "Industrial Engineers",
+        "top5": [
+          "17-2112.00",
+          "17-2071.00",
+          "17-2141.00",
+          "17-2161.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1417.6383018493652
+      },
+      {
+        "id": 60,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "43-4051.00",
+          "15-1255.01",
+          "15-1251.00",
+          "13-1151.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4589.485645294189
+      },
+      {
+        "id": 61,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "11-3013.00",
+          "15-1241.01",
+          "11-2021.00",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 7040.9510135650635
+      },
+      {
+        "id": 62,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "11-3031.01",
+        "pred_title": "Treasurers and Controllers",
+        "top5": [
+          "11-3031.01",
+          "17-2199.08",
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3047.1091270446777
+      },
+      {
+        "id": 63,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-2051.00",
+        "pred_title": "Data Scientists",
+        "top5": [
+          "15-2051.00",
+          "15-1252.00",
+          "15-1251.00",
+          "11-3013.00",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4615.506172180176
+      },
+      {
+        "id": 64,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "15-1251.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2254.404067993164
+      },
+      {
+        "id": 65,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "43-4051.00",
+        "pred_title": "Customer Service Representatives",
+        "top5": [
+          "43-4051.00",
+          "11-3013.01",
+          "13-1199.07",
+          "19-3011.00",
+          "15-1251.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9944.914102554321
+      },
+      {
+        "id": 66,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-2051.01",
+        "pred_title": "Business Intelligence Analysts",
+        "top5": [
+          "15-2051.01",
+          "15-1252.00",
+          "13-1111.00",
+          "13-2051.00",
+          "17-2141.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 6681.6511154174805
+      },
+      {
+        "id": 67,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2071.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 4644.024133682251
+      },
+      {
+        "id": 68,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "11-3051.01",
+          "45-4029.00",
+          "11-3013.00",
+          "15-2021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 5457.499980926514
+      },
+      {
+        "id": 69,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "27-1012.00",
+        "pred_title": "Craft Artists",
+        "top5": [
+          "27-1012.00",
+          "41-9031.00",
+          "11-1031.00",
+          "17-2141.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9595.014095306396
+      },
+      {
+        "id": 70,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1244.00",
+        "pred_title": "Network and Computer Systems Administrators",
+        "top5": [
+          "15-1244.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 5052.148103713989
+      },
+      {
+        "id": 71,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02",
+          "33-9032.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 13011.569261550903
+      },
+      {
+        "id": 72,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "11-3013.01",
+        "pred_title": "Security Managers",
+        "top5": [
+          "11-3013.01",
+          "13-1199.07",
+          "17-2141.00",
+          "17-2112.00",
+          "33-3051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 6493.024826049805
+      },
+      {
+        "id": 73,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02",
+          "17-2112.03"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 4788.01417350769
+      },
+      {
+        "id": 74,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02",
+          "17-2112.03"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2089.371919631958
+      },
+      {
+        "id": 75,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1242.00",
+        "pred_title": "Database Administrators",
+        "top5": [
+          "15-1242.00",
+          "43-3061.00",
+          "11-3012.00",
+          "51-2092.00",
+          "17-2112.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 8902.972221374512
+      },
+      {
+        "id": 76,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "17-2141.00",
+          "17-2112.00",
+          "11-3013.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4768.057823181152
+      },
+      {
+        "id": 77,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1242.00",
+        "pred_title": "Database Administrators",
+        "top5": [
+          "15-1242.00",
+          "49-9071.00",
+          "49-9043.00",
+          "15-1252.00",
+          "11-3013.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3350.8100509643555
+      },
+      {
+        "id": 78,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1242.00",
+        "pred_title": "Database Administrators",
+        "top5": [
+          "15-1242.00",
+          "11-3021.00",
+          "17-2141.00",
+          "17-2112.00",
+          "15-1299.09"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3870.461940765381
+      },
+      {
+        "id": 79,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1242.00",
+        "pred_title": "Database Administrators",
+        "top5": [
+          "15-1242.00",
+          "15-1252.00",
+          "15-1254.00",
+          "11-3013.00",
+          "15-1243.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2720.284938812256
+      },
+      {
+        "id": 80,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "15-1251.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 5385.7972621917725
+      },
+      {
+        "id": 81,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "29-1229.02",
+        "pred_title": "Hospitalists",
+        "top5": [
+          "29-1229.02",
+          "15-1243.01",
+          "33-3051.00",
+          "15-1252.00",
+          "43-4051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3724.0560054779053
+      },
+      {
+        "id": 82,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "15-1241.01",
+          "15-1252.00",
+          "43-4051.00",
+          "43-2021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3574.4402408599854
+      },
+      {
+        "id": 83,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "15-1252.00",
+          "15-2051.01",
+          "13-1111.00",
+          "19-3093.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3622.7729320526123
+      },
+      {
+        "id": 84,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "29-1217.00",
+        "pred_title": "Neurologists",
+        "top5": [
+          "29-1217.00",
+          "29-1212.00",
+          "15-1299.08",
+          "19-3039.02",
+          "17-2141.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2909.9361896514893
+      },
+      {
+        "id": 85,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "15-1243.01",
+          "15-1252.00",
+          "15-1251.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 5231.1296463012695
+      },
+      {
+        "id": 86,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "41-9012.00",
+          "15-2051.01",
+          "13-1111.00",
+          "13-2051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4123.110055923462
+      },
+      {
+        "id": 87,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "11-3013.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 4695.07098197937
+      },
+      {
+        "id": 88,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "17-2112.00",
+        "pred_title": "Industrial Engineers",
+        "top5": [
+          "17-2112.00",
+          "17-2141.00",
+          "15-1252.00",
+          "11-3013.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 1838.927984237671
+      },
+      {
+        "id": 89,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "17-2131.00",
+          "17-2071.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2799.0050315856934
+      },
+      {
+        "id": 90,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "29-1229.02",
+        "pred_title": "Hospitalists",
+        "top5": [
+          "29-1229.02",
+          "15-1252.00",
+          "11-3013.00",
+          "29-2099.08",
+          "11-2021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 7022.800922393799
+      },
+      {
+        "id": 91,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "13-1082.00",
+        "pred_title": "Project Management Specialists",
+        "top5": [
+          "13-1082.00",
+          "15-1299.09",
+          "15-1252.00",
+          "15-1251.00",
+          "11-9021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3435.1730346679688
+      },
+      {
+        "id": 92,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "41-9012.00",
+        "pred_title": "Models",
+        "top5": [
+          "41-9012.00",
+          "13-1081.02",
+          "13-1081.01",
+          "15-1252.00",
+          "47-2061.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2621.474266052246
+      },
+      {
+        "id": 93,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1251.00",
+          "11-3013.00",
+          "11-2021.00",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 1911.109209060669
+      },
+      {
+        "id": 94,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1254.00",
+          "15-1255.01",
+          "15-1255.00",
+          "15-1251.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 2663.6757850646973
+      },
+      {
+        "id": 95,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3321.080207824707
+      },
+      {
+        "id": 96,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 3406.6498279571533
+      },
+      {
+        "id": 97,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "17-2141.00",
+          "17-2112.00",
+          "11-3071.04",
+          "17-2051.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 4805.495023727417
+      },
+      {
+        "id": 98,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "17-2061.00",
+        "pred_title": "Computer Hardware Engineers",
+        "top5": [
+          "17-2061.00",
+          "11-2022.00",
+          "11-2021.00",
+          "41-9031.00",
+          "17-2141.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 6047.011137008667
+      },
+      {
+        "id": 99,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "15-1252.00",
+          "15-1299.07",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 2061.4802837371826
+      },
+      {
+        "id": 100,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "17-2141.00",
+          "17-2112.00",
+          "17-3028.00",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3765.9692764282227
+      },
+      {
+        "id": 101,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "11-3051.01",
+        "pred_title": "Quality Control Systems Managers",
+        "top5": [
+          "11-3051.01",
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2846.7729091644287
+      },
+      {
+        "id": 102,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2071.00",
+          "17-2051.00",
+          "17-2141.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 2575.7808685302734
+      },
+      {
+        "id": 103,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "17-2051.00",
+          "17-2141.02",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 3313.4889602661133
+      },
+      {
+        "id": 104,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2112.00",
+          "29-1229.02",
+          "11-3051.01",
+          "17-2051.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 3091.6028022766113
+      }
+    ]
+  },
+  "tfidf": {
+    "method": "TF-IDF + Logistic Regression",
+    "accuracy_top1": 0.08571428571428572,
+    "accuracy_top5": 0.2,
+    "accuracy_top1_family": 0.34285714285714286,
+    "accuracy_top5_family": 0.7142857142857143,
+    "avg_time_ms": 13.587983449300129,
+    "total_time_s": 1.4267382621765137,
+    "errors": 0,
+    "n_examples": 105,
+    "cost_usd": 0,
+    "results": [
+      {
+        "id": 0,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "25-9031.00",
+          "13-1151.00",
+          "17-1021.00",
+          "23-2099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 100.46696662902832
+      },
+      {
+        "id": 1,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1243.01",
+          "25-2059.00",
+          "15-2041.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.0250244140625
+      },
+      {
+        "id": 2,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "29-9021.00",
+          "15-1243.00",
+          "11-3021.00",
+          "15-1243.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.912967681884766
+      },
+      {
+        "id": 3,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1243.01",
+          "15-2041.00",
+          "25-2059.00",
+          "15-2051.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.527849197387695
+      },
+      {
+        "id": 4,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "23-2099.00",
+          "17-3023.00",
+          "11-9041.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.113954544067383
+      },
+      {
+        "id": 5,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "43-3051.00",
+        "pred_title": "Payroll and Timekeeping Clerks",
+        "top5": [
+          "43-3051.00",
+          "13-1141.00",
+          "13-1151.00",
+          "13-1041.01",
+          "11-9199.02"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.310100555419922
+      },
+      {
+        "id": 6,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "25-1011.00",
+          "23-2099.00",
+          "13-2011.00",
+          "11-3031.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.639263153076172
+      },
+      {
+        "id": 7,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "49-9071.00",
+        "pred_title": "Maintenance and Repair Workers, General",
+        "top5": [
+          "49-9071.00",
+          "11-9039.00",
+          "43-9061.00",
+          "11-9032.00",
+          "11-3121.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 14.23501968383789
+      },
+      {
+        "id": 8,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "25-1021.00",
+        "pred_title": "Computer Science Teachers, Postsecondary",
+        "top5": [
+          "25-1021.00",
+          "15-1252.00",
+          "25-2023.00",
+          "15-1211.00",
+          "15-1243.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 13.647079467773438
+      },
+      {
+        "id": 9,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "11-9039.00",
+          "25-1066.00",
+          "19-3032.00",
+          "25-1081.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 8.911848068237305
+      },
+      {
+        "id": 10,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-2099.00",
+        "pred_title": "Legal Support Workers, All Other",
+        "top5": [
+          "23-2099.00",
+          "43-6012.00",
+          "25-2059.00",
+          "23-2011.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.32621955871582
+      },
+      {
+        "id": 11,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-2099.00",
+        "pred_title": "Legal Support Workers, All Other",
+        "top5": [
+          "23-2099.00",
+          "25-2059.00",
+          "23-1023.00",
+          "27-3092.00",
+          "23-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.684013366699219
+      },
+      {
+        "id": 12,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "43-6012.00",
+        "pred_title": "Legal Secretaries and Administrative Assistants",
+        "top5": [
+          "43-6012.00",
+          "23-2099.00",
+          "23-2011.00",
+          "23-1012.00",
+          "23-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.283065795898438
+      },
+      {
+        "id": 13,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-2099.00",
+        "pred_title": "Legal Support Workers, All Other",
+        "top5": [
+          "23-2099.00",
+          "43-6012.00",
+          "23-1012.00",
+          "23-2011.00",
+          "23-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.588956832885742
+      },
+      {
+        "id": 14,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-2099.00",
+        "pred_title": "Legal Support Workers, All Other",
+        "top5": [
+          "23-2099.00",
+          "23-1012.00",
+          "43-6012.00",
+          "23-2011.00",
+          "23-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 8.928775787353516
+      },
+      {
+        "id": 15,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "41-9091.00",
+          "17-3027.00",
+          "41-3091.00",
+          "41-9031.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.860204696655273
+      },
+      {
+        "id": 16,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-3027.00",
+        "pred_title": "Mechanical Engineering Technologists and Technicians",
+        "top5": [
+          "17-3027.00",
+          "17-2141.00",
+          "17-3013.00",
+          "11-9039.00",
+          "33-1099.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.179830551147461
+      },
+      {
+        "id": 17,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "13-1151.00",
+          "11-9041.00",
+          "17-3027.00",
+          "31-1122.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.69586181640625
+      },
+      {
+        "id": 18,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-3027.00",
+        "pred_title": "Mechanical Engineering Technologists and Technicians",
+        "top5": [
+          "17-3027.00",
+          "17-2141.00",
+          "11-9041.00",
+          "25-1032.00",
+          "49-9044.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.708166122436523
+      },
+      {
+        "id": 19,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-3027.00",
+        "pred_title": "Mechanical Engineering Technologists and Technicians",
+        "top5": [
+          "17-3027.00",
+          "11-9041.00",
+          "25-1032.00",
+          "17-3029.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 13.482093811035156
+      },
+      {
+        "id": 20,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "41-3091.00",
+        "pred_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+        "top5": [
+          "41-3091.00",
+          "41-9031.00",
+          "41-4011.00",
+          "41-3011.00",
+          "41-4012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 15.290975570678711
+      },
+      {
+        "id": 21,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "41-3091.00",
+        "pred_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+        "top5": [
+          "41-3091.00",
+          "11-9141.00",
+          "11-9199.00",
+          "41-1011.00",
+          "11-3013.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.458946228027344
+      },
+      {
+        "id": 22,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "41-3091.00",
+        "pred_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+        "top5": [
+          "41-3091.00",
+          "41-9031.00",
+          "11-2021.00",
+          "41-4011.00",
+          "41-3011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 12.449979782104492
+      },
+      {
+        "id": 23,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2021.00",
+        "pred_title": "Marketing Managers",
+        "top5": [
+          "11-2021.00",
+          "25-1011.00",
+          "11-3012.00",
+          "41-3091.00",
+          "41-9031.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 8.826017379760742
+      },
+      {
+        "id": 24,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "13-1199.06",
+        "pred_title": "Online Merchants",
+        "top5": [
+          "13-1199.06",
+          "41-3091.00",
+          "41-1011.00",
+          "41-9031.00",
+          "41-9011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.224746704101562
+      },
+      {
+        "id": 25,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "29-1031.00",
+          "11-9179.01",
+          "29-9021.00",
+          "23-2099.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.938955307006836
+      },
+      {
+        "id": 26,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.01",
+        "pred_title": "Fitness and Wellness Coordinators",
+        "top5": [
+          "11-9179.01",
+          "41-3091.00",
+          "41-4011.00",
+          "41-9031.00",
+          "41-3011.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.766817092895508
+      },
+      {
+        "id": 27,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.01",
+        "pred_title": "Fitness and Wellness Coordinators",
+        "top5": [
+          "11-9179.01",
+          "13-1151.00",
+          "11-9179.02",
+          "29-1081.00",
+          "35-9099.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.966135025024414
+      },
+      {
+        "id": 28,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "29-1031.00",
+        "pred_title": "Dietitians and Nutritionists",
+        "top5": [
+          "29-1031.00",
+          "21-1091.00",
+          "11-9039.00",
+          "29-9021.00",
+          "25-2059.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.785890579223633
+      },
+      {
+        "id": 29,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.01",
+        "pred_title": "Fitness and Wellness Coordinators",
+        "top5": [
+          "11-9179.01",
+          "25-1199.00",
+          "51-9081.00",
+          "29-1031.00",
+          "25-1082.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 32.07802772521973
+      },
+      {
+        "id": 30,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "23-2099.00",
+          "11-9021.00",
+          "13-1082.00",
+          "11-9041.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 12.260913848876953
+      },
+      {
+        "id": 31,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-3022.00",
+        "pred_title": "Civil Engineering Technologists and Technicians",
+        "top5": [
+          "17-3022.00",
+          "11-9021.00",
+          "25-2059.00",
+          "17-3011.00",
+          "53-5022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 33.21695327758789
+      },
+      {
+        "id": 32,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-3022.00",
+        "pred_title": "Civil Engineering Technologists and Technicians",
+        "top5": [
+          "17-3022.00",
+          "11-9021.00",
+          "25-2059.00",
+          "17-3011.00",
+          "53-5022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 14.497041702270508
+      },
+      {
+        "id": 33,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "13-1082.00",
+          "11-9039.00",
+          "33-1099.00",
+          "11-9199.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.790824890136719
+      },
+      {
+        "id": 34,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "13-1082.00",
+          "11-9039.00",
+          "33-1099.00",
+          "11-9021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.40394401550293
+      },
+      {
+        "id": 35,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1254.00",
+          "15-1255.00",
+          "53-5022.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.272026062011719
+      },
+      {
+        "id": 36,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1252.00",
+          "13-1082.00",
+          "55-3014.00",
+          "51-8012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 12.451171875
+      },
+      {
+        "id": 37,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1252.00",
+          "15-1255.00",
+          "11-3021.00",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.499881744384766
+      },
+      {
+        "id": 38,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "13-1151.00",
+          "11-3021.00",
+          "15-1252.00",
+          "15-1254.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.842395782470703
+      },
+      {
+        "id": 39,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1254.00",
+          "15-1255.00",
+          "15-1244.00",
+          "13-1151.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.95492935180664
+      },
+      {
+        "id": 40,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "23-2099.00",
+          "53-5022.00",
+          "55-1015.00",
+          "17-3024.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 14.208078384399414
+      },
+      {
+        "id": 41,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "13-1199.04",
+          "23-2099.00",
+          "25-1011.00",
+          "11-9032.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 14.535903930664062
+      },
+      {
+        "id": 42,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "23-2099.00",
+          "11-9039.00",
+          "13-2099.00",
+          "23-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.29913330078125
+      },
+      {
+        "id": 43,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1211.00",
+        "pred_title": "Computer Systems Analysts",
+        "top5": [
+          "15-1211.00",
+          "15-2051.01",
+          "11-3021.00",
+          "25-2059.00",
+          "25-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.93292236328125
+      },
+      {
+        "id": 44,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-2051.01",
+        "pred_title": "Business Intelligence Analysts",
+        "top5": [
+          "15-2051.01",
+          "13-2054.00",
+          "25-1011.00",
+          "13-1199.04",
+          "11-3012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.243011474609375
+      },
+      {
+        "id": 45,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "41-9091.00",
+          "23-2099.00",
+          "41-3091.00",
+          "55-1015.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.490179061889648
+      },
+      {
+        "id": 46,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1252.00",
+          "15-1243.00",
+          "55-1015.00",
+          "17-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.914875030517578
+      },
+      {
+        "id": 47,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "23-2099.00",
+          "27-3011.00",
+          "41-9091.00",
+          "55-1015.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 13.638734817504883
+      },
+      {
+        "id": 48,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "11-9039.00",
+        "pred_title": "Education Administrators, All Other",
+        "top5": [
+          "11-9039.00",
+          "41-9011.00",
+          "31-1122.00",
+          "55-2011.00",
+          "27-1026.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.46187973022461
+      },
+      {
+        "id": 49,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "13-1082.00",
+        "pred_title": "Project Management Specialists",
+        "top5": [
+          "13-1082.00",
+          "15-1299.09",
+          "15-1252.00",
+          "15-1254.00",
+          "15-1255.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 8.903980255126953
+      },
+      {
+        "id": 50,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-3024.01",
+        "pred_title": "Robotics Technicians",
+        "top5": [
+          "17-3024.01",
+          "25-9099.00",
+          "17-3021.00",
+          "17-2199.05",
+          "53-5022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.149240493774414
+      },
+      {
+        "id": 51,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "17-3024.01",
+          "17-3021.00",
+          "13-1082.00",
+          "25-9099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 11.837959289550781
+      },
+      {
+        "id": 52,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-3024.01",
+        "pred_title": "Robotics Technicians",
+        "top5": [
+          "17-3024.01",
+          "17-2199.05",
+          "49-2095.00",
+          "53-5022.00",
+          "55-1015.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.598970413208008
+      },
+      {
+        "id": 53,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-3024.01",
+        "pred_title": "Robotics Technicians",
+        "top5": [
+          "17-3024.01",
+          "25-2059.00",
+          "13-1082.00",
+          "17-2199.05",
+          "15-1255.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.6658935546875
+      },
+      {
+        "id": 54,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-3024.01",
+        "pred_title": "Robotics Technicians",
+        "top5": [
+          "17-3024.01",
+          "17-3021.00",
+          "25-2059.00",
+          "25-9099.00",
+          "17-2199.05"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.126113891601562
+      },
+      {
+        "id": 55,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-3012.00",
+        "pred_title": "Electrical and Electronics Drafters",
+        "top5": [
+          "17-3012.00",
+          "17-2071.00",
+          "11-9041.00",
+          "13-1082.00",
+          "17-3023.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.28299331665039
+      },
+      {
+        "id": 56,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "49-2095.00",
+          "51-8012.00",
+          "17-3023.00",
+          "11-9041.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 11.595010757446289
+      },
+      {
+        "id": 57,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "49-9071.00",
+        "pred_title": "Maintenance and Repair Workers, General",
+        "top5": [
+          "49-9071.00",
+          "49-2095.00",
+          "17-2071.00",
+          "49-2092.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.43613052368164
+      },
+      {
+        "id": 58,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2071.00",
+        "pred_title": "Electrical Engineers",
+        "top5": [
+          "17-2071.00",
+          "47-1011.03",
+          "51-8012.00",
+          "17-3012.00",
+          "11-9041.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.920120239257812
+      },
+      {
+        "id": 59,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "11-9041.00",
+        "pred_title": "Architectural and Engineering Managers",
+        "top5": [
+          "11-9041.00",
+          "33-2022.00",
+          "33-2021.00",
+          "25-1032.00",
+          "33-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.919881820678711
+      },
+      {
+        "id": 60,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "13-1151.00",
+        "pred_title": "Training and Development Specialists",
+        "top5": [
+          "13-1151.00",
+          "15-1255.00",
+          "15-1254.00",
+          "11-9039.00",
+          "29-1216.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.200904846191406
+      },
+      {
+        "id": 61,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1255.00",
+          "15-1254.00",
+          "15-1231.00",
+          "55-3015.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.609149932861328
+      },
+      {
+        "id": 62,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "13-1151.00",
+        "pred_title": "Training and Development Specialists",
+        "top5": [
+          "13-1151.00",
+          "55-2011.00",
+          "31-1122.00",
+          "25-2059.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.648012161254883
+      },
+      {
+        "id": 63,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1254.00",
+          "15-1255.00",
+          "15-1252.00",
+          "29-9021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.26296615600586
+      },
+      {
+        "id": 64,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "25-1021.00",
+        "pred_title": "Computer Science Teachers, Postsecondary",
+        "top5": [
+          "25-1021.00",
+          "15-1243.00",
+          "15-1254.00",
+          "15-1252.00",
+          "25-1032.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.674787521362305
+      },
+      {
+        "id": 65,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "13-1082.00",
+        "pred_title": "Project Management Specialists",
+        "top5": [
+          "13-1082.00",
+          "15-1299.09",
+          "35-3041.00",
+          "11-3021.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.15870475769043
+      },
+      {
+        "id": 66,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1299.09",
+          "53-5022.00",
+          "13-1199.06",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.035919189453125
+      },
+      {
+        "id": 67,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "23-2099.00",
+          "15-1299.09",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 12.451171875
+      },
+      {
+        "id": 68,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "13-1082.00",
+        "pred_title": "Project Management Specialists",
+        "top5": [
+          "13-1082.00",
+          "15-1299.09",
+          "11-9041.00",
+          "11-9121.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.089874267578125
+      },
+      {
+        "id": 69,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "13-1199.04",
+        "pred_title": "Business Continuity Planners",
+        "top5": [
+          "13-1199.04",
+          "13-1082.00",
+          "25-1011.00",
+          "11-3012.00",
+          "53-5022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.875059127807617
+      },
+      {
+        "id": 70,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1244.00",
+          "15-1231.00",
+          "25-2059.00",
+          "33-1099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.528087615966797
+      },
+      {
+        "id": 71,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "13-1199.07",
+        "pred_title": "Security Management Specialists",
+        "top5": [
+          "13-1199.07",
+          "15-1241.00",
+          "33-1099.00",
+          "15-1299.05",
+          "15-1244.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.066986083984375
+      },
+      {
+        "id": 72,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "13-1199.07",
+        "pred_title": "Security Management Specialists",
+        "top5": [
+          "13-1199.07",
+          "15-1212.00",
+          "15-1299.05",
+          "33-1099.00",
+          "15-1244.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.881019592285156
+      },
+      {
+        "id": 73,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "33-1099.00",
+          "15-1299.05",
+          "15-1231.00",
+          "15-1244.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.117769241333008
+      },
+      {
+        "id": 74,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1244.00",
+          "15-1231.00",
+          "33-1099.00",
+          "13-1199.07"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.459184646606445
+      },
+      {
+        "id": 75,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "35-3041.00",
+        "pred_title": "Food Servers, Nonrestaurant",
+        "top5": [
+          "35-3041.00",
+          "15-1243.00",
+          "35-9011.00",
+          "33-9099.00",
+          "25-2059.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.032176971435547
+      },
+      {
+        "id": 76,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "25-2059.00",
+          "35-3041.00",
+          "27-3011.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.216951370239258
+      },
+      {
+        "id": 77,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "25-2059.00",
+          "35-3041.00",
+          "33-9099.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.862899780273438
+      },
+      {
+        "id": 78,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1243.01",
+          "25-2059.00",
+          "33-1099.00",
+          "29-9021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 8.858919143676758
+      },
+      {
+        "id": 79,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "25-2059.00",
+          "15-1243.01",
+          "23-2099.00",
+          "13-2099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.346174240112305
+      },
+      {
+        "id": 80,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "15-1243.01",
+          "23-2099.00",
+          "15-2041.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 9.729862213134766
+      },
+      {
+        "id": 81,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "23-2099.00",
+          "15-1243.01",
+          "15-2041.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.06627082824707
+      },
+      {
+        "id": 82,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "15-1243.01",
+          "15-2041.00",
+          "17-1021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 150.0868797302246
+      },
+      {
+        "id": 83,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.01",
+          "15-1243.00",
+          "17-1021.00",
+          "15-2041.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 23.94866943359375
+      },
+      {
+        "id": 84,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1243.00",
+          "25-2059.00",
+          "15-2041.00",
+          "29-9021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.886907577514648
+      },
+      {
+        "id": 85,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1243.01",
+          "15-2041.00",
+          "17-1021.00",
+          "53-5022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 19.8819637298584
+      },
+      {
+        "id": 86,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "15-1243.01",
+          "23-2099.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.490106582641602
+      },
+      {
+        "id": 87,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.01",
+          "15-1243.00",
+          "15-2041.00",
+          "23-2099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 15.299797058105469
+      },
+      {
+        "id": 88,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "11-9039.00",
+          "11-9199.00",
+          "13-2099.00",
+          "33-1099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 12.082099914550781
+      },
+      {
+        "id": 89,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1243.00",
+          "25-2059.00",
+          "15-1254.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 11.256933212280273
+      },
+      {
+        "id": 90,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1243.00",
+          "15-1299.09",
+          "13-1082.00",
+          "23-2099.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 11.433124542236328
+      },
+      {
+        "id": 91,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1255.00",
+        "pred_title": "Web and Digital Interface Designers",
+        "top5": [
+          "15-1255.00",
+          "15-1254.00",
+          "25-2059.00",
+          "15-1252.00",
+          "15-1243.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 11.6729736328125
+      },
+      {
+        "id": 92,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "15-1252.00",
+          "15-1299.09",
+          "23-2099.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.924100875854492
+      },
+      {
+        "id": 93,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1254.00",
+          "15-1255.00",
+          "35-3041.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.979009628295898
+      },
+      {
+        "id": 94,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1255.00",
+        "pred_title": "Web and Digital Interface Designers",
+        "top5": [
+          "15-1255.00",
+          "15-1254.00",
+          "15-1243.00",
+          "15-1252.00",
+          "51-9141.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.91909408569336
+      },
+      {
+        "id": 95,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "15-1254.00",
+          "15-1255.00",
+          "27-3011.00",
+          "15-1252.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.935068130493164
+      },
+      {
+        "id": 96,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "15-1254.00",
+          "15-1255.00",
+          "27-3011.00",
+          "15-1252.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.904073715209961
+      },
+      {
+        "id": 97,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "11-3021.00",
+          "25-1021.00",
+          "55-3015.00",
+          "15-1211.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 10.654926300048828
+      },
+      {
+        "id": 98,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "25-1021.00",
+        "pred_title": "Computer Science Teachers, Postsecondary",
+        "top5": [
+          "25-1021.00",
+          "11-9039.00",
+          "25-2059.00",
+          "13-2099.00",
+          "49-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.484052658081055
+      },
+      {
+        "id": 99,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.07",
+        "pred_title": "Blockchain Engineers",
+        "top5": [
+          "15-1299.07",
+          "53-5022.00",
+          "11-3021.00",
+          "25-2059.00",
+          "23-1022.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 9.851694107055664
+      },
+      {
+        "id": 100,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "11-9039.00",
+          "33-1099.00",
+          "49-2095.00",
+          "11-9199.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 10.310173034667969
+      },
+      {
+        "id": 101,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "55-1015.00",
+          "11-3051.01",
+          "55-3015.00",
+          "11-9039.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 16.969919204711914
+      },
+      {
+        "id": 102,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "17-3021.00",
+        "pred_title": "Aerospace Engineering and Operations Technologists and Technicians",
+        "top5": [
+          "17-3021.00",
+          "25-9099.00",
+          "49-2095.00",
+          "41-9091.00",
+          "17-3023.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 9.746313095092773
+      },
+      {
+        "id": 103,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "25-2059.00",
+        "pred_title": "Special Education Teachers, All Other",
+        "top5": [
+          "25-2059.00",
+          "11-9039.00",
+          "15-1299.09",
+          "15-1252.00",
+          "11-9199.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 10.378837585449219
+      },
+      {
+        "id": 104,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "15-1255.00",
+        "pred_title": "Web and Digital Interface Designers",
+        "top5": [
+          "15-1255.00",
+          "15-1252.00",
+          "15-1254.00",
+          "15-1243.00",
+          "17-2131.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 8.803844451904297
+      }
+    ]
+  },
+  "transformer": {
+    "method": "Transformer Semantic Matching",
+    "accuracy_top1": 0.0761904761904762,
+    "accuracy_top5": 0.26666666666666666,
+    "accuracy_top1_family": 0.638095238095238,
+    "accuracy_top5_family": 0.8095238095238095,
+    "avg_time_ms": 49260.74561845689,
+    "total_time_s": 5172.378289937973,
+    "errors": 0,
+    "n_examples": 105,
+    "cost_usd": 0,
+    "results": [
+      {
+        "id": 0,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1252.00",
+          "15-1253.00",
+          "15-1299.09",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 60920.453786849976
+      },
+      {
+        "id": 1,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "13-1111.00",
+        "pred_title": "Management Analysts",
+        "top5": [
+          "13-1111.00",
+          "15-1252.00",
+          "15-1243.00",
+          "15-1299.09",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 76361.09590530396
+      },
+      {
+        "id": 2,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "13-2099.04",
+        "pred_title": "Fraud Examiners, Investigators and Analysts",
+        "top5": [
+          "13-2099.04",
+          "15-1221.00",
+          "15-1299.08",
+          "15-1252.00",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 37327.38018035889
+      },
+      {
+        "id": 3,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1242.00",
+          "15-1221.00",
+          "15-1244.00",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 46439.67533111572
+      },
+      {
+        "id": 4,
+        "true_code": "15-2051.00",
+        "category": "Data Science",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1221.00",
+          "15-1241.00",
+          "15-1253.00",
+          "17-2199.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28028.16891670227
+      },
+      {
+        "id": 5,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "43-3051.00",
+        "pred_title": "Payroll and Timekeeping Clerks",
+        "top5": [
+          "43-3051.00",
+          "43-1011.00",
+          "43-4161.00",
+          "11-3121.00",
+          "13-1071.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 24908.770084381104
+      },
+      {
+        "id": 6,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1242.00",
+          "13-1111.00",
+          "11-9111.00",
+          "11-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 25836.028814315796
+      },
+      {
+        "id": 7,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "29-2091.00",
+        "pred_title": "Orthotists and Prosthetists",
+        "top5": [
+          "29-2091.00",
+          "11-9111.00",
+          "15-1299.09",
+          "11-1011.00",
+          "15-1232.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 26058.676958084106
+      },
+      {
+        "id": 8,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "15-1221.00",
+        "pred_title": "Computer and Information Research Scientists",
+        "top5": [
+          "15-1221.00",
+          "15-1253.00",
+          "19-2012.00",
+          "15-1299.08",
+          "15-1251.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 19812.41202354431
+      },
+      {
+        "id": 9,
+        "true_code": "13-1071.00",
+        "category": "Human Resources",
+        "pred_code": "19-3033.00",
+        "pred_title": "Clinical and Counseling Psychologists",
+        "top5": [
+          "19-3033.00",
+          "25-1066.00",
+          "19-3039.03",
+          "21-1011.00",
+          "29-1229.04"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 23277.042150497437
+      },
+      {
+        "id": 10,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1011.00",
+        "pred_title": "Lawyers",
+        "top5": [
+          "23-1011.00",
+          "23-1023.00",
+          "23-1012.00",
+          "23-2011.00",
+          "11-9111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 28173.694849014282
+      },
+      {
+        "id": 11,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "13-1041.07",
+        "pred_title": "Regulatory Affairs Specialists",
+        "top5": [
+          "13-1041.07",
+          "11-9032.00",
+          "33-3051.00",
+          "29-1141.04",
+          "33-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 20654.634952545166
+      },
+      {
+        "id": 12,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1011.00",
+        "pred_title": "Lawyers",
+        "top5": [
+          "23-1011.00",
+          "25-1111.00",
+          "13-1041.06",
+          "25-1112.00",
+          "25-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 29438.379049301147
+      },
+      {
+        "id": 13,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1023.00",
+        "pred_title": "Judges, Magistrate Judges, and Magistrates",
+        "top5": [
+          "23-1023.00",
+          "13-1031.00",
+          "13-1075.00",
+          "33-3051.00",
+          "17-2112.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 20867.506742477417
+      },
+      {
+        "id": 14,
+        "true_code": "21-1093.00",
+        "category": "Advocate",
+        "pred_code": "23-1011.00",
+        "pred_title": "Lawyers",
+        "top5": [
+          "23-1011.00",
+          "43-5011.01",
+          "11-1011.00",
+          "11-9199.02",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 25170.58825492859
+      },
+      {
+        "id": 15,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "11-3051.01",
+        "pred_title": "Quality Control Systems Managers",
+        "top5": [
+          "11-3051.01",
+          "17-3027.00",
+          "17-2112.03",
+          "41-9031.00",
+          "13-1023.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 34419.06189918518
+      },
+      {
+        "id": 16,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2031.00",
+        "pred_title": "Bioengineers and Biomedical Engineers",
+        "top5": [
+          "17-2031.00",
+          "17-2141.00",
+          "17-2141.02",
+          "17-3026.00",
+          "17-2199.09"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 24020.485877990723
+      },
+      {
+        "id": 17,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-3013.00",
+        "pred_title": "Mechanical Drafters",
+        "top5": [
+          "17-3013.00",
+          "17-2141.02",
+          "17-2199.08",
+          "17-2031.00",
+          "17-3027.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23615.360021591187
+      },
+      {
+        "id": 18,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2141.00",
+        "pred_title": "Mechanical Engineers",
+        "top5": [
+          "17-2141.00",
+          "17-2111.02",
+          "17-2051.02",
+          "17-2199.05",
+          "17-2141.02"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 21053.10297012329
+      },
+      {
+        "id": 19,
+        "true_code": "17-2141.00",
+        "category": "Mechanical Engineer",
+        "pred_code": "17-2112.03",
+        "pred_title": "Manufacturing Engineers",
+        "top5": [
+          "17-2112.03",
+          "17-3027.00",
+          "17-2141.00",
+          "17-2199.08",
+          "17-2031.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 18679.713010787964
+      },
+      {
+        "id": 20,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "43-1011.00",
+        "pred_title": "First-Line Supervisors of Office and Administrative Support Workers",
+        "top5": [
+          "43-1011.00",
+          "11-9179.02",
+          "41-1011.00",
+          "11-3121.00",
+          "41-1012.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 26528.41091156006
+      },
+      {
+        "id": 21,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "13-1199.06",
+        "pred_title": "Online Merchants",
+        "top5": [
+          "13-1199.06",
+          "11-9179.01",
+          "13-1161.00",
+          "11-2021.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 23010.940074920654
+      },
+      {
+        "id": 22,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "41-9031.00",
+        "pred_title": "Sales Engineers",
+        "top5": [
+          "41-9031.00",
+          "11-2022.00",
+          "41-1011.00",
+          "41-9021.00",
+          "11-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25991.533041000366
+      },
+      {
+        "id": 23,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "17-1011.00",
+        "pred_title": "Architects, Except Landscape and Naval",
+        "top5": [
+          "17-1011.00",
+          "27-4021.00",
+          "25-1121.00",
+          "27-4032.00",
+          "27-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 22045.090913772583
+      },
+      {
+        "id": 24,
+        "true_code": "41-9012.00",
+        "category": "Sales",
+        "pred_code": "11-2022.00",
+        "pred_title": "Sales Managers",
+        "top5": [
+          "11-2022.00",
+          "41-4011.00",
+          "11-9081.00",
+          "25-1011.00",
+          "41-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 21827.78000831604
+      },
+      {
+        "id": 25,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "29-1031.00",
+        "pred_title": "Dietitians and Nutritionists",
+        "top5": [
+          "29-1031.00",
+          "11-9179.01",
+          "11-2022.00",
+          "13-1199.06",
+          "11-2021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 23047.842741012573
+      },
+      {
+        "id": 26,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.01",
+        "pred_title": "Fitness and Wellness Coordinators",
+        "top5": [
+          "11-9179.01",
+          "11-9111.00",
+          "29-9091.00",
+          "11-9081.00",
+          "27-2022.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 34738.73996734619
+      },
+      {
+        "id": 27,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.01",
+        "pred_title": "Fitness and Wellness Coordinators",
+        "top5": [
+          "11-9179.01",
+          "11-9179.02",
+          "33-2011.00",
+          "39-9031.00",
+          "33-2021.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23076.544761657715
+      },
+      {
+        "id": 28,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "11-9179.02",
+        "pred_title": "Spa Managers",
+        "top5": [
+          "11-9179.02",
+          "11-9032.00",
+          "11-9072.00",
+          "29-1229.05",
+          "11-1011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 22563.460111618042
+      },
+      {
+        "id": 29,
+        "true_code": "11-9179.01",
+        "category": "Health and fitness",
+        "pred_code": "29-1031.00",
+        "pred_title": "Dietitians and Nutritionists",
+        "top5": [
+          "29-1031.00",
+          "29-1128.00",
+          "29-1024.00",
+          "11-9179.01",
+          "29-1021.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 20996.877193450928
+      },
+      {
+        "id": 30,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "11-9021.00",
+          "11-3051.01",
+          "11-9141.00",
+          "47-4011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 30849.89285469055
+      },
+      {
+        "id": 31,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "11-9041.00",
+        "pred_title": "Architectural and Engineering Managers",
+        "top5": [
+          "11-9041.00",
+          "17-2051.01",
+          "17-2051.00",
+          "17-2051.02",
+          "17-3011.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 27969.769954681396
+      },
+      {
+        "id": 32,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "11-9041.00",
+        "pred_title": "Architectural and Engineering Managers",
+        "top5": [
+          "11-9041.00",
+          "17-2051.01",
+          "17-2051.00",
+          "17-2051.02",
+          "17-3011.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 26452.9287815094
+      },
+      {
+        "id": 33,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-3011.00",
+        "pred_title": "Architectural and Civil Drafters",
+        "top5": [
+          "17-3011.00",
+          "11-9021.00",
+          "17-1011.00",
+          "17-2071.00",
+          "17-3027.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26478.688955307007
+      },
+      {
+        "id": 34,
+        "true_code": "17-2051.00",
+        "category": "Civil Engineer",
+        "pred_code": "17-3011.00",
+        "pred_title": "Architectural and Civil Drafters",
+        "top5": [
+          "17-3011.00",
+          "11-9021.00",
+          "17-1011.00",
+          "17-2071.00",
+          "17-3027.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 24920.39394378662
+      },
+      {
+        "id": 35,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1254.00",
+        "pred_title": "Web Developers",
+        "top5": [
+          "15-1254.00",
+          "15-1299.08",
+          "15-1232.00",
+          "15-1241.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 32201.611042022705
+      },
+      {
+        "id": 36,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1254.00",
+          "15-1253.00",
+          "15-1299.09",
+          "13-1111.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23695.87993621826
+      },
+      {
+        "id": 37,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1254.00",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1253.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25263.397932052612
+      },
+      {
+        "id": 38,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1254.00",
+          "15-1299.09",
+          "15-1253.00",
+          "15-1243.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 24865.494966506958
+      },
+      {
+        "id": 39,
+        "true_code": "15-1251.00",
+        "category": "Java Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1244.00",
+          "15-1254.00",
+          "15-1242.00",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 24810.537099838257
+      },
+      {
+        "id": 40,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1253.00",
+          "11-3051.01",
+          "11-3021.00",
+          "11-9021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 37268.407106399536
+      },
+      {
+        "id": 41,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1232.00",
+          "15-1253.00",
+          "15-1299.08",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 30287.784099578857
+      },
+      {
+        "id": 42,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1253.00",
+        "pred_title": "Software Quality Assurance Analysts and Testers",
+        "top5": [
+          "15-1253.00",
+          "17-2051.02",
+          "17-2112.03",
+          "11-9041.00",
+          "17-2199.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 23996.063947677612
+      },
+      {
+        "id": 43,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1299.08",
+          "15-1211.00",
+          "15-1299.09",
+          "15-1242.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 19039.387941360474
+      },
+      {
+        "id": 44,
+        "true_code": "13-1111.00",
+        "category": "Business Analyst",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "11-9041.00",
+          "13-1161.00",
+          "15-1252.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 20009.419918060303
+      },
+      {
+        "id": 45,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-2051.01",
+        "pred_title": "Business Intelligence Analysts",
+        "top5": [
+          "15-2051.01",
+          "41-9031.00",
+          "13-1161.00",
+          "15-1221.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 31737.16402053833
+      },
+      {
+        "id": 46,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1299.09",
+          "15-1253.00",
+          "15-1252.00",
+          "11-3021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26566.1940574646
+      },
+      {
+        "id": 47,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "11-3051.01",
+          "11-9041.00",
+          "17-2141.00",
+          "15-1254.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26846.00806236267
+      },
+      {
+        "id": 48,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "11-9021.00",
+          "11-3021.00",
+          "15-1252.00",
+          "15-1243.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25900.41184425354
+      },
+      {
+        "id": 49,
+        "true_code": "15-1211.00",
+        "category": "SAP Developer",
+        "pred_code": "11-9121.00",
+        "pred_title": "Natural Sciences Managers",
+        "top5": [
+          "11-9121.00",
+          "17-2021.00",
+          "19-1021.00",
+          "19-1029.02",
+          "17-2031.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 19885.701894760132
+      },
+      {
+        "id": 50,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1253.00",
+        "pred_title": "Software Quality Assurance Analysts and Testers",
+        "top5": [
+          "15-1253.00",
+          "15-1299.08",
+          "15-1299.09",
+          "15-1299.01",
+          "15-1252.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 33543.44916343689
+      },
+      {
+        "id": 51,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1253.00",
+          "15-1299.09",
+          "15-1254.00",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 24921.993017196655
+      },
+      {
+        "id": 52,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "17-2199.08",
+        "pred_title": "Robotics Engineers",
+        "top5": [
+          "17-2199.08",
+          "17-3024.01",
+          "17-2031.00",
+          "15-1244.00",
+          "49-9021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 26939.964056015015
+      },
+      {
+        "id": 53,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1253.00",
+          "15-1252.00",
+          "15-1299.09",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28333.616733551025
+      },
+      {
+        "id": 54,
+        "true_code": "15-1253.00",
+        "category": "Automation Testing",
+        "pred_code": "15-1253.00",
+        "pred_title": "Software Quality Assurance Analysts and Testers",
+        "top5": [
+          "15-1253.00",
+          "13-1081.01",
+          "15-1252.00",
+          "15-1299.01",
+          "13-1081.02"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23759.98592376709
+      },
+      {
+        "id": 55,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "17-2051.02",
+          "17-2071.00",
+          "47-2111.00",
+          "17-3023.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 31613.13796043396
+      },
+      {
+        "id": 56,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "49-2094.00",
+        "pred_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+        "top5": [
+          "49-2094.00",
+          "49-9021.00",
+          "49-3042.00",
+          "51-8021.00",
+          "49-3011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 31236.3178730011
+      },
+      {
+        "id": 57,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "49-9041.00",
+        "pred_title": "Industrial Machinery Mechanics",
+        "top5": [
+          "49-9041.00",
+          "49-3042.00",
+          "49-9071.00",
+          "49-3023.00",
+          "49-3031.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 25994.232892990112
+      },
+      {
+        "id": 58,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "47-2231.00",
+        "pred_title": "Solar Photovoltaic Installers",
+        "top5": [
+          "47-2231.00",
+          "47-1011.03",
+          "47-2152.04",
+          "17-2199.11",
+          "17-2072.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 23532.809019088745
+      },
+      {
+        "id": 59,
+        "true_code": "17-2071.00",
+        "category": "Electrical Engineering",
+        "pred_code": "17-2161.00",
+        "pred_title": "Nuclear Engineers",
+        "top5": [
+          "17-2161.00",
+          "25-1052.00",
+          "19-2032.00",
+          "17-2199.09",
+          "17-3026.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 19893.7668800354
+      },
+      {
+        "id": 60,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1253.00",
+          "15-1252.00",
+          "15-1243.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26904.099941253662
+      },
+      {
+        "id": 61,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1252.00",
+          "15-1244.00",
+          "15-1211.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 32609.79986190796
+      },
+      {
+        "id": 62,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "17-2199.08",
+          "15-1253.00",
+          "15-1221.00",
+          "15-1241.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25668.133974075317
+      },
+      {
+        "id": 63,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1299.08",
+          "15-1252.00",
+          "15-1241.00",
+          "15-1253.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26678.09009552002
+      },
+      {
+        "id": 64,
+        "true_code": "15-1251.00",
+        "category": "Python Developer",
+        "pred_code": "15-1253.00",
+        "pred_title": "Software Quality Assurance Analysts and Testers",
+        "top5": [
+          "15-1253.00",
+          "15-1299.08",
+          "15-1241.00",
+          "19-2012.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25047.779083251953
+      },
+      {
+        "id": 65,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1253.00",
+          "15-1254.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 40759.00173187256
+      },
+      {
+        "id": 66,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1253.00",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1244.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 33507.64727592468
+      },
+      {
+        "id": 67,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-1253.00",
+        "pred_title": "Software Quality Assurance Analysts and Testers",
+        "top5": [
+          "15-1253.00",
+          "15-1299.09",
+          "15-1299.08",
+          "15-1242.00",
+          "15-1243.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 29787.363052368164
+      },
+      {
+        "id": 68,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "13-1111.00",
+          "15-1252.00",
+          "15-1299.08",
+          "11-9199.01"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 36279.25086021423
+      },
+      {
+        "id": 69,
+        "true_code": "15-1252.00",
+        "category": "DevOps Engineer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "11-3021.00",
+          "15-1253.00",
+          "11-3013.01",
+          "11-1021.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 35931.55908584595
+      },
+      {
+        "id": 70,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "11-3021.00",
+          "15-1244.00",
+          "15-1232.00",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 29847.743034362793
+      },
+      {
+        "id": 71,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1299.08",
+          "15-1244.00",
+          "13-1199.07",
+          "15-1231.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 41376.060009002686
+      },
+      {
+        "id": 72,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "11-3013.01",
+          "15-1244.00",
+          "15-1299.05",
+          "13-1121.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 35784.747838974
+      },
+      {
+        "id": 73,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1253.00",
+          "15-1244.00",
+          "15-1232.00",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 34054.45599555969
+      },
+      {
+        "id": 74,
+        "true_code": "15-1299.04",
+        "category": "Network Security Engineer",
+        "pred_code": "15-1244.00",
+        "pred_title": "Network and Computer Systems Administrators",
+        "top5": [
+          "15-1244.00",
+          "15-1241.00",
+          "11-3013.01",
+          "13-1199.07",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23754.483938217163
+      },
+      {
+        "id": 75,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1242.00",
+          "15-1299.09",
+          "15-1252.00",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 38805.43780326843
+      },
+      {
+        "id": 76,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1244.00",
+        "pred_title": "Network and Computer Systems Administrators",
+        "top5": [
+          "15-1244.00",
+          "15-1299.08",
+          "15-1243.00",
+          "15-1241.00",
+          "15-1232.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28841.19415283203
+      },
+      {
+        "id": 77,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1242.00",
+          "15-1299.08",
+          "15-1241.00",
+          "15-1244.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 27697.153091430664
+      },
+      {
+        "id": 78,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1253.00",
+          "15-1299.09",
+          "15-1242.00",
+          "15-1232.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28198.344230651855
+      },
+      {
+        "id": 79,
+        "true_code": "15-1242.00",
+        "category": "Database",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1242.00",
+          "15-1299.08",
+          "15-1244.00",
+          "15-1232.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25963.922023773193
+      },
+      {
+        "id": 80,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1221.00",
+          "15-1242.00",
+          "15-1299.09",
+          "13-1111.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 35226.37104988098
+      },
+      {
+        "id": 81,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1253.00",
+          "15-2051.01",
+          "15-1243.00",
+          "15-1242.00"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 31286.412239074707
+      },
+      {
+        "id": 82,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1253.00",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1242.00"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28861.68599128723
+      },
+      {
+        "id": 83,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1253.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 29802.043199539185
+      },
+      {
+        "id": 84,
+        "true_code": "15-1243.00",
+        "category": "Hadoop",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1244.00",
+          "15-1221.00",
+          "15-1299.09",
+          "15-1241.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 29225.998163223267
+      },
+      {
+        "id": 85,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1243.00",
+          "41-9031.00",
+          "15-1299.09",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 31819.093942642212
+      },
+      {
+        "id": 86,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1252.00",
+          "15-1243.00",
+          "15-1299.08",
+          "15-1241.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 29961.537837982178
+      },
+      {
+        "id": 87,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "11-9041.00",
+        "pred_title": "Architectural and Engineering Managers",
+        "top5": [
+          "11-9041.00",
+          "15-1232.00",
+          "15-1244.00",
+          "15-1242.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 39193.666219711304
+      },
+      {
+        "id": 88,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1242.00",
+        "pred_title": "Database Administrators",
+        "top5": [
+          "15-1242.00",
+          "15-1253.00",
+          "15-1243.00",
+          "15-2051.01",
+          "17-2112.02"
+        ],
+        "hit1": true,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 32186.392068862915
+      },
+      {
+        "id": 89,
+        "true_code": "15-1242.00",
+        "category": "ETL Developer",
+        "pred_code": "15-1243.01",
+        "pred_title": "Data Warehousing Specialists",
+        "top5": [
+          "15-1243.01",
+          "15-1241.00",
+          "15-1242.00",
+          "15-1299.09",
+          "15-1299.08"
+        ],
+        "hit1": false,
+        "hit5": true,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 922975.349187851
+      },
+      {
+        "id": 90,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1299.09",
+        "pred_title": "Information Technology Project Managers",
+        "top5": [
+          "15-1299.09",
+          "15-1253.00",
+          "15-1299.01",
+          "13-1111.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 26490.072011947632
+      },
+      {
+        "id": 91,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1254.00",
+          "15-1252.00",
+          "15-1299.09",
+          "15-1242.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 947565.8271312714
+      },
+      {
+        "id": 92,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "13-1081.02",
+        "pred_title": "Logistics Analysts",
+        "top5": [
+          "13-1081.02",
+          "13-1081.01",
+          "15-1299.09",
+          "13-1081.00",
+          "15-1232.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 25776.919841766357
+      },
+      {
+        "id": 93,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1252.00",
+        "pred_title": "Software Developers",
+        "top5": [
+          "15-1252.00",
+          "15-1253.00",
+          "15-1254.00",
+          "15-1211.00",
+          "15-1299.09"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 272308.12072753906
+      },
+      {
+        "id": 94,
+        "true_code": "15-1251.00",
+        "category": "DotNet Developer",
+        "pred_code": "15-1254.00",
+        "pred_title": "Web Developers",
+        "top5": [
+          "15-1254.00",
+          "15-1211.00",
+          "15-1252.00",
+          "15-1253.00",
+          "15-2051.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 22640.832901000977
+      },
+      {
+        "id": 95,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1299.09",
+          "15-1299.08",
+          "15-1211.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25578.495264053345
+      },
+      {
+        "id": 96,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1241.00",
+        "pred_title": "Computer Network Architects",
+        "top5": [
+          "15-1241.00",
+          "15-1299.09",
+          "15-1299.08",
+          "15-1211.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25230.75294494629
+      },
+      {
+        "id": 97,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "15-1299.09",
+          "13-1111.00",
+          "15-1252.00",
+          "15-1211.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 27927.152156829834
+      },
+      {
+        "id": 98,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1221.00",
+        "pred_title": "Computer and Information Research Scientists",
+        "top5": [
+          "15-1221.00",
+          "15-1299.08",
+          "15-1253.00",
+          "15-1251.00",
+          "15-1252.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 25083.343267440796
+      },
+      {
+        "id": 99,
+        "true_code": "15-1299.07",
+        "category": "Blockchain",
+        "pred_code": "15-1299.08",
+        "pred_title": "Computer Systems Engineers/Architects",
+        "top5": [
+          "15-1299.08",
+          "17-2199.08",
+          "17-2111.02",
+          "47-2152.04",
+          "53-6051.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 17449.11527633667
+      },
+      {
+        "id": 100,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "11-3051.01",
+        "pred_title": "Quality Control Systems Managers",
+        "top5": [
+          "11-3051.01",
+          "51-9061.00",
+          "49-3053.00",
+          "19-4099.01",
+          "49-2022.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 22562.558889389038
+      },
+      {
+        "id": 101,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "11-3051.01",
+        "pred_title": "Quality Control Systems Managers",
+        "top5": [
+          "11-3051.01",
+          "17-3023.00",
+          "15-1253.00",
+          "15-1241.01",
+          "15-1299.01"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": true,
+        "ms": 155323.49681854248
+      },
+      {
+        "id": 102,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "49-9021.00",
+        "pred_title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+        "top5": [
+          "49-9021.00",
+          "49-9051.00",
+          "47-3013.00",
+          "49-2094.00",
+          "33-2011.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": false,
+        "hit5f": false,
+        "ms": 30639.585971832275
+      },
+      {
+        "id": 103,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1252.00",
+          "15-1299.08",
+          "15-1253.00",
+          "15-1241.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 23389.34302330017
+      },
+      {
+        "id": 104,
+        "true_code": "15-1299.04",
+        "category": "Testing",
+        "pred_code": "15-1243.00",
+        "pred_title": "Database Architects",
+        "top5": [
+          "15-1243.00",
+          "15-1253.00",
+          "15-1242.00",
+          "15-1299.09",
+          "15-1241.00"
+        ],
+        "hit1": false,
+        "hit5": false,
+        "hit1f": true,
+        "hit5f": true,
+        "ms": 28673.993349075317
+      }
+    ]
+  }
+}
