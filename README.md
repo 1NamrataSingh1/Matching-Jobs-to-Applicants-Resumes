@@ -1,382 +1,233 @@
-# Job-Resume Matching: Comparative Evaluation Research Project
+# Comparing Resume-to-Job Matching Methods
 
-## 🎯 Research Question
-**How do traditional approaches (rule-based, classical ML) compare to modern transformer-based methods for job-resume matching in terms of accuracy, latency, and complexity?**
+A comparative evaluation of three NLP-based approaches for matching unstructured resume text to standardized O\*NET occupations.
 
-## 📊 What This Project Does
-
-This is a **comparative research project** that evaluates **3 different approaches** to job-resume matching:
-
-| Method | Type | Key Characteristic |
-|--------|------|-------------------|
-| **Method 1**: Simple Cosine Similarity | Rule-based | Fast, interpretable, keyword-dependent |
-| **Method 2**: TF-IDF + Logistic Regression | Traditional ML | Good balance, requires training data |
-| **Method 3**: Transformer Semantic Matching | Modern Deep Learning | Best accuracy, semantic understanding |
+**Author:** Namrata Singh — Penn State University  
+**Parent Paper:** [A Novel Approach for Job Matching and Skill Recommendation Using Transformers and the O\*NET Database](https://doi.org/10.1016/j.bdr.2025.100509) (Alonso et al., 2025)
 
 ---
 
-## 🚀 Quick Start
+## What This Project Does
 
-### Option 1: Run Everything Automatically ⭐ **RECOMMENDED**
+This project takes resume text as input and predicts which O\*NET occupation it best matches. It runs **three different methods** on the same task and compares their accuracy, semantic understanding, and speed:
+
+| Method | Type | What It Does |
+|--------|------|--------------|
+| **Cosine Similarity** | Rule-based baseline | Compares resume text directly against job title names |
+| **TF-IDF + Logistic Regression** | Traditional ML | Classifies resumes using bag-of-words features |
+| **Transformer Semantic Matching** | Deep learning | Compares resume text against 7 O\*NET entity types using sentence-transformers (parent paper method) |
+
+### Results Summary
+
+| Method | Top-1 Exact | Top-5 Exact | Top-1 Family | Top-5 Family | Latency |
+|--------|-------------|-------------|--------------|--------------|---------|
+| Cosine Similarity | **19.0%** | **39.0%** | 40.0% | 70.5% | 4.2s |
+| TF-IDF + Log. Reg. | 8.6% | 20.0% | 34.3% | 71.4% | **0.014s** |
+| Transformer + O\*NET | 7.6% | 26.7% | **63.8%** | **81.0%** | 49.3s |
+
+*105 resumes across 21 categories, evaluated against 1,016 O\*NET occupations.*
+
+---
+
+## Prerequisites
+
+- **Python 3.9+** (tested on 3.11.7)
+- **MySQL 8.0+** installed and running
+- **~2 GB disk space** for the O\*NET database and embedding files
+- **macOS, Linux, or WSL** (not tested on native Windows)
+
+---
+
+## Setup
+
+### 1. Create a virtual environment
+
 ```bash
-cd ob2
-python run_project.py
+cd using-transformers-and-o-net-to-match-jobs-to-applicants-resumes-main
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-This one command will:
-1. Generate all embedding files (~20 minutes, one-time)
-2. Prepare test data
-3. Train TF-IDF model
-4. Run all 3 methods on your test set
-5. Generate comparison visualizations
-6. Save results to `evaluation_results.json`
-
-**Total time**: ~30-45 minutes (mostly waiting for embeddings)
-
-### Option 2: Run Step-by-Step
+### 2. Install Python dependencies
 
 ```bash
-# Step 1: Prepare data (5 min)
+pip install torch torchvision torchaudio
+pip install sentence-transformers
+pip install textblob
+pip install mysql-connector-python
+pip install scikit-learn
+pip install matplotlib numpy
+python -m textblob.download_corpora
+```
+
+### 3. Download and import the O\*NET database
+
+1. Go to [https://www.onetcenter.org/database.html#all-files](https://www.onetcenter.org/database.html#all-files)
+2. Download the **MySQL** version of the database
+3. Import it into MySQL:
+
+```bash
+mysql -u root -p -e "CREATE DATABASE db_26_1;"
+mysql -u root -p db_26_1 < /path/to/onet_database.sql
+```
+
+4. Create the application user:
+
+```bash
+mysql -u root -p -e "CREATE USER 'jobmatch'@'localhost' IDENTIFIED BY 'jobmatch123';"
+mysql -u root -p -e "GRANT ALL PRIVILEGES ON db_26_1.* TO 'jobmatch'@'localhost';"
+mysql -u root -p -e "FLUSH PRIVILEGES;"
+```
+
+> **Note:** If your MySQL credentials differ, edit `ob2/skills_query.py` line 8 to match your setup.
+
+### 4. Verify database connection
+
+```bash
+cd ob2
+python -c "from skills_query import QueryMysql; q = QueryMysql(); print(f'Connected: {len(q.get_job_codes())} jobs')"
+```
+
+You should see: `Connected: 1016 jobs`
+
+---
+
+## Running the Project
+
+### Option A: Run everything at once
+
+```bash
+python ob2/run_project.py
+```
+
+This will automatically:
+1. Generate embedding files (if missing)
+2. Prepare test data with ground truth labels
+3. Train the TF-IDF model
+4. Evaluate all 3 methods
+5. Generate visualizations
+
+### Option B: Run each step manually
+
+```bash
+cd ob2
+
+# Step 1: Generate embeddings (~5-10 minutes first time)
+python generate_embeddings.py
+
+# Step 2: Prepare labeled test data
 python prepare_test_data.py
 
-# Step 2: Train TF-IDF (2 min)
+# Step 3: Train TF-IDF model
 python tfidf_baseline.py
 
-# Step 3: Run evaluation (5-10 min)
+# Step 4: Run evaluation on all methods
 python evaluate.py
 
-# Step 4: Create visualizations (1 min)
+# Step 5 (optional): Generate charts
 python visualize_results.py
 ```
 
----
+### Quick test (5 resumes only)
 
-## 📦 Installation
-
-### 1. Download Files
-Place these files in your `ob2/` directory:
-- `evaluate.py` ⭐ (main evaluation framework)
-- `run_project.py` (automated pipeline)
-- `prepare_test_data.py` (data preparation)
-- `tfidf_baseline.py` (traditional ML method)
-- `baseline_wrappers.py` (baseline method wrappers)
-- `visualize_results.py` (plot generation)
-- `requirements.txt` (dependencies)
-
-### 2. Install Dependencies
 ```bash
-pip install torch sentence-transformers textblob scikit-learn pandas matplotlib
-```
-
-Or use requirements file:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Verify Setup
-Your database should already be configured from earlier in the project.
-
----
-
-## 📋 The 3 Methods Explained
-
-### Method 1: Simple Cosine Similarity (Baseline)
-**File**: `baseline_wrappers.py`
-
-**How it works:**
-1. Parse resume text → extract nouns, phrases
-2. Encode both resume and job titles with SentenceTransformers
-3. Compute cosine similarity
-4. Return top matches
-
-**Pros:**
-- ⚡ Very fast (~10-20ms per resume)
-- 🔍 Easy to understand and debug
-- 📊 Interpretable results
-
-**Cons:**
-- Limited semantic understanding
-- Keyword-dependent
-- Misses implicit skills
-
-**Expected Performance**: ~45-55% top-1 accuracy
-
----
-
-### Method 2: TF-IDF + Logistic Regression (Traditional ML)
-**File**: `tfidf_baseline.py`
-
-**How it works:**
-1. Vectorize resume text using TF-IDF (bag-of-words)
-2. Train multi-class logistic regression classifier
-3. Predict job category probabilities
-4. Return top 5 matches
-
-**Pros:**
-- ⚡ Fast inference (~15-30ms per resume)
-- 📈 Learns from training data
-- 🎯 Better than simple baselines
-
-**Cons:**
-- Needs training data
-- Still bag-of-words (no word order)
-- No semantic understanding
-
-**Expected Performance**: ~55-65% top-1 accuracy
-
----
-
-### Method 3: Transformer Semantic Matching (Modern DL)
-**File**: `cv_analyzer.py` (already exists in starter code)
-
-**How it works:**
-1. Parse resume → extract sentences, nouns, phrases
-2. Encode with all-mpnet-base-v2 transformer (768-dim embeddings)
-3. Compare against O*NET job descriptions across 11 dimensions:
-   - Tech skills
-   - Knowledge areas
-   - Abilities
-   - Work activities
-   - Tasks
-   - Tools
-   - (Each with name AND description matching)
-4. Aggregate scores and return top 5
-
-**Pros:**
-- 🎯 Best accuracy
-- 🧠 Semantic understanding (understands "ML engineer" ≈ "data scientist")
-- 📊 Rich feature set from O*NET
-
-**Cons:**
-- Slower (~200-300ms per resume)
-- More complex (harder to debug)
-- Requires embeddings and O*NET data
-
-**Expected Performance**: ~70-75% top-1 accuracy
-
----
-
-## 📊 Example Output
-
-After running the evaluation, you'll get results like:
-
-```
-EVALUATION RESULTS SUMMARY
-==================================================================================
-Method                                   Top-1 Acc    Top-5 Acc    Avg Time      
-----------------------------------------------------------------------------------
-Simple Cosine Similarity                 48.3%        73.1%        14.2ms        
-TF-IDF + Logistic Regression             61.7%        82.4%        22.8ms        
-Transformer Semantic Matching            72.9%        89.6%        247.3ms       
-==================================================================================
-
-KEY INSIGHTS:
-  • Best accuracy: Transformer Semantic Matching (72.9%)
-  • Fastest method: Simple Cosine Similarity (14.2 ms)
-
-TRADEOFF ANALYSIS:
-  Simple Cosine Similarity: 3401.41 accuracy points per second
-  TF-IDF + Logistic Regression: 2705.26 accuracy points per second
-  Transformer Semantic Matching: 294.82 accuracy points per second
-==================================================================================
+python ob2/evaluate.py --fast
 ```
 
 ---
 
-## 📈 Visualizations Generated
-
-The `visualize_results.py` script creates:
-
-1. **`accuracy_comparison.png`** - Bar chart comparing top-1 and top-5 accuracy
-2. **`latency_comparison.png`** - Bar chart of average prediction time
-3. **`accuracy_latency_scatter.png`** - Scatter plot showing accuracy vs. speed tradeoff
-4. **`results_table.txt`** - Formatted text table of all results
-
----
-
-## 🎓 Research Findings Template
-
-Your project answers these questions:
-
-### Q1: Which method is most accurate?
-**A**: Transformer semantic matching achieves ~70-75% accuracy vs. ~50-65% for traditional methods.
-
-### Q2: Which is fastest?
-**A**: Simple cosine similarity is 15-20x faster than transformers.
-
-### Q3: When are simple methods sufficient?
-**A**: When speed matters more than accuracy, or when resumes use standard job titles.
-
-### Q4: When is deep learning worth it?
-**A**: When you need semantic understanding (e.g., "ML engineer" → "Data Scientist" matching) and accuracy is critical.
-
-### Q5: What's the accuracy/speed tradeoff?
-**A**: Transformers give +20-25% accuracy but cost +15x latency.
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-ob2/
-├── evaluate.py              ⭐ Main evaluation framework
-├── run_project.py           ⭐ Automated pipeline
-├── prepare_test_data.py     📊 Data preparation
-├── tfidf_baseline.py        🤖 Traditional ML method
-├── baseline_wrappers.py     📏 Baseline implementations
-├── visualize_results.py     📈 Visualization generation
-│
-├── cv_analyzer.py           🧠 Transformer method (existing)
-├── naive.py                 📏 Original baselines (existing)
-├── skills_query.py          🗄️ Database interface (existing)
-├── utility.py               🔧 Helper functions (existing)
-├── generate_embeddings.py   💾 Embedding generation (existing)
-│
-├── test_data_with_labels.json   📊 Output: Test set
-├── train_data.json              📊 Output: Training set
-├── tfidf_model.pkl              🤖 Output: Trained model
-├── evaluation_results.json      ✅ Output: Final results
-│
-├── accuracy_comparison.png      📊 Output: Plots
-├── latency_comparison.png       📊 Output: Plots
-└── accuracy_latency_scatter.png 📊 Output: Plots
+├── ob2/                           # Main project code
+│   ├── cv_analyzer.py             # Transformer semantic matching (parent paper method)
+│   ├── skills_query.py            # MySQL/O*NET database interface
+│   ├── baseline_wrappers.py       # Cosine similarity baseline
+│   ├── tfidf_baseline.py          # TF-IDF + logistic regression baseline
+│   ├── evaluate.py                # Evaluation framework (runs all 3 methods)
+│   ├── prepare_test_data.py       # Creates labeled test data from resumes
+│   ├── generate_embeddings.py     # Generates sentence-transformer embedding files
+│   ├── run_project.py             # Master pipeline script
+│   ├── visualize_results.py       # Generates comparison charts
+│   ├── five_unique_resumes.json   # Source resume data (5 per category, 21 categories)
+│   ├── test_data_with_labels.json # Labeled test set (generated)
+│   ├── train_data.json            # TF-IDF training data (generated)
+│   ├── tfidf_model.pkl            # Trained TF-IDF model (generated)
+│   ├── evaluation_results.json    # Full evaluation results (generated)
+│   ├── skill_embeddings.pt        # Tech skills embeddings by job (generated)
+│   ├── titles_embeddings.pt       # All job title embeddings (generated)
+│   ├── task_embeddings.pt         # Task embeddings by job (generated)
+│   └── tools_embeddings.pt        # Tools embeddings by job (generated)
+├── splits/                        # Train/test/validation splits
+│   ├── train.csv
+│   ├── test.csv
+│   ├── val_unseen.csv
+│   └── split_metadata.json
+├── export_splits.py               # Script that created the splits
+└── README.md
 ```
 
 ---
 
-## ⚙️ How Each Method Works (Technical Details)
+## How Each Method Works
 
-### Method 1: Cosine Similarity
-```python
-# Pseudocode
-resume_embedding = encode(resume_text)
-job_embeddings = encode(all_job_titles)
-similarities = cosine_similarity(resume_embedding, job_embeddings)
-top_5 = argmax(similarities, k=5)
-```
+### Method 1: Cosine Similarity Baseline
+
+Encodes all 1,016 O\*NET job titles and the resume text using `all-mpnet-base-v2`, then returns the jobs with the highest cosine similarity. No O\*NET entity scoring involved — purely surface-level textual resemblance.
 
 ### Method 2: TF-IDF + Logistic Regression
-```python
-# Training
-X_train = tfidf.fit_transform(resumes)
-y_train = job_codes
-model.fit(X_train, y_train)
 
-# Prediction
-X_test = tfidf.transform(new_resume)
-probabilities = model.predict_proba(X_test)
-top_5 = argsort(probabilities)[-5:]
-```
+Represents resumes as TF-IDF feature vectors (unigrams + bigrams, 5,000 features) and trains a logistic regression classifier to predict the O\*NET occupation code. Outputs class probabilities, enabling ranked top-k predictions.
 
-### Method 3: Transformer Semantic
-```python
-# Simplified
-resume_features = parse(resume)  # Nouns, phrases, sentences
-resume_emb = transformer.encode(resume_features)
+### Method 3: Transformer Semantic Matching
 
-for each job in O*NET:
-    scores = []
-    scores.append(match_skills(resume_emb, job.tech_skills))
-    scores.append(match_knowledge(resume_emb, job.knowledge))
-    scores.append(match_abilities(resume_emb, job.abilities))
-    scores.append(match_tasks(resume_emb, job.tasks))
-    # ... 7 more dimensions
-    job_score = sum(scores)
-
-top_5 = argmax(job_scores, k=5)
-```
+Reproduces the parent paper's approach:
+1. Parses resume text into nouns, noun phrases, and sentences using TextBlob
+2. Encodes text with `all-mpnet-base-v2` sentence-transformer
+3. Computes cosine similarity against O\*NET entities for each of the 1,016 jobs across 7 categories (skills, knowledge, abilities, work activities, tasks, tools, technology skills)
+4. If similarity exceeds threshold (0.65), adds the entity's importance score to the job's total
+5. Returns top 5 jobs ranked by aggregated score
 
 ---
 
-## 🔧 Troubleshooting
+## Evaluation Metrics
 
-### "No test data found"
-```bash
-python prepare_test_data.py
-```
+- **Top-1 Exact:** correct O\*NET code is the #1 prediction
+- **Top-5 Exact:** correct O\*NET code appears in the top 5
+- **Top-1 Family:** #1 prediction shares the same 2-digit SOC group (e.g., all `15-xxxx` = computer occupations)
+- **Top-5 Family:** correct SOC family appears in the top 5
+- **Latency:** average time per resume prediction
 
-### "TF-IDF model not found"
-```bash
-python tfidf_baseline.py
-```
-
-### "Missing embedding files"
-```bash
-python generate_embeddings.py
-# Wait 20-30 minutes
-```
-
-### "Database connection failed"
-Check `skills_query.py` line 10:
-```python
-self.db = mysql.connector.connect(
-    host='localhost',           # ← Should be localhost
-    user='jobmatch',            # ← Your MySQL user
-    password='jobmatch123',     # ← Your MySQL password
-    database='db_26_1'          # ← O*NET database name
-)
-```
+Family-level metrics matter because O\*NET has 1,016 highly specific occupations — predicting "Software Developers" when the answer is "Computer Programmers" is a miss on exact match but correct at the family level.
 
 ---
 
-## ⏱️ Time Estimates
+## Troubleshooting
 
-- **Setup**: 5 minutes (installing dependencies)
-- **Embedding generation**: 20-30 minutes (one-time)
-- **Data preparation**: 5 minutes
-- **TF-IDF training**: 2-5 minutes
-- **Evaluation** (100 examples): 5-10 minutes
-- **Visualization**: 1 minute
+**"No test data source found"**  
+Make sure `five_unique_resumes.json` exists in `ob2/`. The scripts auto-detect the `ob2/` directory, but if you're running from an unexpected location, `cd ob2` first.
 
-**Total first run**: ~45 minutes
-**Subsequent runs**: ~10 minutes (embeddings already exist)
+**MySQL connection refused**  
+Make sure MySQL is running (`mysql.server start` on macOS or `sudo systemctl start mysql` on Linux) and the `jobmatch` user exists with access to `db_26_1`.
 
----
+**"LogisticRegression got an unexpected keyword argument 'multi_class'"**  
+Your scikit-learn version is 1.7+. The `tfidf_baseline.py` in this repo already has this fixed.
 
-## 📝 Writing Your Research Paper
-
-### Structure:
-1. **Introduction**: Job matching is important, many approaches exist
-2. **Related Work**: Cite your 5 papers
-3. **Methods**: Describe all 3 approaches
-4. **Experiments**: Dataset, metrics, setup
-5. **Results**: Show comparison table and plots
-6. **Discussion**: Analyze tradeoffs
-7. **Conclusion**: Summarize findings
-
-### Key Argument:
-> "While modern transformer-based methods achieve higher accuracy (~73% vs. ~48-62%), simpler approaches may be preferable when interpretability and speed are priorities. We find that the choice of method depends on the specific use case and constraints."
+**Embedding generation is slow**  
+First run of `generate_embeddings.py` takes 5-10 minutes because it encodes skills/tasks/tools for all 1,016 jobs. Subsequent runs skip this step since the `.pt` files already exist.
 
 ---
 
-## 🎯 Success Criteria
+## References
 
-Your project is successful if you can:
-- ✅ Run all 3 methods on the same test set
-- ✅ Generate comparison metrics (accuracy, latency)
-- ✅ Create visualizations showing tradeoffs
-- ✅ Explain when each method is appropriate
-- ✅ Document your methodology clearly
-
----
-
-## 📚 Citations
-
-Base code from:
-```
-Alonso, R., Dessì, D., Meloni, A., & Recupero, D. R. (2022). 
-A Novel Approach for Job Matching and Skill Recommendation 
-Using Transformers and the O*NET Database.
-```
+1. R. Alonso, D. Dessí, A. Meloni, and D. Reforgiato Recupero, "A novel approach for job matching and skill recommendation using transformers and the O\*NET database," *Big Data Research*, vol. 39, 2025.
+2. A. Akkasi, "Job description parsing with explainable transformer based ensemble models to extract the technical and non-technical skills," *Natural Language Processing Journal*, vol. 9, 2024.
+3. J. Rosenberger et al., "CareerBERT: Matching resumes to ESCO jobs in a shared embedding space for generic job recommendations," *Expert Systems With Applications*, vol. 275, 2025.
+4. G. Tzimas et al., "From data to insight: Transforming online job postings into labor-market intelligence," *Information*, vol. 15, no. 8, 2024.
+5. M. Zhang et al., "SKILLSPAN: Hard and soft skill extraction from English job postings," in *Proc. NAACL-HLT*, 2022.
 
 ---
 
-## 🎉 You're Ready!
+## License
 
-1. Download all files
-2. Run `python run_project.py`
-3. Wait for results
-4. Analyze findings
-5. Write your research paper
-
-**No API keys. No costs. Complete research project.** 🚀
+The O\*NET database is available under a [Creative Commons license](https://www.onetcenter.org/license_db.html). The original starter code is from the [HRI Lab, University of Cagliari](https://gitlab.com/hri_lab1/using-transformers-and-o-net-to-match-jobs-to-applicants-resumes).
